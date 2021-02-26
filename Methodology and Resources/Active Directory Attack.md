@@ -219,8 +219,8 @@ root@payload$ apt install bloodhound
 
 # start BloodHound and the database
 root@payload$ neo4j console
-root@payload$ ./bloodhound --no-sandbox
-Go to http://127.0.0.1:7474, use db:bolt://localhost:7687, user:neo4J, pass:neo4j
+root@payload$ bloodhound
+Go to http://127.0.0.1:7474, use db:bolt://localhost:7687, user:neo4j, pass:neo4j
 ```
 
 You can add some custom queries like [Bloodhound-Custom-Queries](https://github.com/hausec/Bloodhound-Custom-Queries/blob/master/customqueries.json) from @hausec. Replace the customqueries.json file located at `/home/username/.config/bloodhound/customqueries.json` or `C:\Users\USERNAME\AppData\Roaming\BloodHound\customqueries.json`.
